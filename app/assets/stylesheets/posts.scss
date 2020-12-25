@@ -3,10 +3,14 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .post {
   border: 1px solid black;
-  width: 40px;
+  width: 40%;
   margin-top: 30px;
 }
 
 .post-date {
   color: gray;
+}
+
+div[data-check="true"] {
+  background: #585555;
 }
